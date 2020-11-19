@@ -90,8 +90,9 @@ public class JDBCExample {
             for (int i = 1; i <= numberOfColumns; i++)
                 x = resultSet.getInt(i);
                 numList.add(x);
-                System.out.println();
         }
+        
+        
         
         resultSet.close();
         statement.close(); 		
